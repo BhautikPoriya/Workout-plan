@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise Plan</title>
+    <!-- Font import -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+        .ubuntu-light {
+            font-family: "Ubuntu", sans-serif;
+            font-weight: 300;
+            font-style: normal;
+        }
+
+        .ubuntu-regular {
+            font-family: "Ubuntu", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        .ubuntu-medium {
+            font-family: "Ubuntu", sans-serif;
+            font-weight: 500;
+            font-style: normal;
+        }
+
+        .ubuntu-bold {
+            font-family: "Ubuntu", sans-serif;
+            font-weight: 700;
+            font-style: normal;
+        }
+
+        .ubuntu-light-italic {
+            font-family: "Ubuntu", sans-serif;
+            font-weight: 300;
+            font-style: italic;
+        }
+
+        .ubuntu-regular-italic {
+            font-family: "Ubuntu", sans-serif;
+            font-weight: 400;
+            font-style: italic;
+        }
+
+        .ubuntu-medium-italic {
+            font-family: "Ubuntu", sans-serif;
+            font-weight: 500;
+            font-style: italic;
+        }
+
+        .ubuntu-bold-italic {
+            font-family: "Ubuntu", sans-serif;
+            font-weight: 700;
+            font-style: italic;
+        }
+
+        /* Fixes */
+        .dropdown-content.active {
+            margin-bottom: 20px; /* Added margin-bottom */
+        }
+
+        .dropdown-content p {
+
+            color: #000; /* Added black color for Sunday dropdown text */
+        }
+    </style>
+    <!-- End of Font import -->
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            color: #fcfb03;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: transparent;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            margin-top: 0;
+            color: #fcfb03;
+        }
+
+.dropdown-content h3 {
+    color: black; /* Set the title color to black */
+    font-weight: bold; /* Set the title font weight to bold */
+}
+        .dropdown {
+            margin-bottom: 20px;
+        }
+
+        .dropdown-btn {
+            background-color: #ffeb3b;
+            color: #000;
+            padding: 16px;
+            font-size: 16px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            outline: none;
+            width: 100%;
+            text-align: left;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            /* Apply font class */
+            font-family: "Ubuntu", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        .dropdown-btn .material-icons {
+            font-size: 24px;
+        }
+
+        .dropdown-btn:hover,
+        .dropdown-content.active {
+            background-color: #ffea00;
+        }
+
+        .dropdown-content {
+            display: none;
+            padding-left: 20px;
+    padding: 20px;
+        }
+
+        .dropdown-content.active {
+            display: block;
+        }
+
+        .dropdown-content ul {
+            padding-left: 0;
+        }
+
+        .dropdown-content ul li {
+            list-style: none;
+            margin-bottom: 10px;
+            color: #000;
+            /* Apply font class */
+            font-family: "Ubuntu", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        .watch-video-btn {
+            background-color: #000;
+            color: #fcfb03;
+            border: none;
+            padding: 8px 12px;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            /* Apply font class */
+            font-family: "Ubuntu", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        .watch-video-btn:hover {
+            background-color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Exercise Plan</h2>
+        <div class="dropdown">
+            <button class="dropdown-btn">Monday: Chest &amp; Triceps <i class="material-icons">arrow_drop_down</i></button>
+            <div class="dropdown-content">
+                <h3>Chest:</h3>
+                <ul>
+                    <li>
+                        🎯 Decline Barbell - <button class="watch-video-btn" data-video-url="https://www.lyfta.app/video/GymvisualMP4/00331201.mp4">Watch Video</button>
+                    </li>
+                    <li>
+                        🎯 Inclined Barbell - <button class="watch-video-btn" data-video-url="https://www.lyfta.app/video/GymvisualMP4/00471201.mp4">Watch Video</button>
+                    </li>
+                    <li>
+                        🎯 Dumbbell Fly - <button class="watch-video-btn" data-video-url="https://www.lyfta.app/video/GymvisualMP4/03081201.mp4">Watch Video</button>
+                    </li>
+                </ul>
+                <h3>Triceps:</h3>
+                <ul>
+                    <li>
+                        🎯 Skull Crusher on EZ Bar - <button class="watch-video-btn" data-video-url="https://www.lyfta.app/video/GymvisualMP4/36461201.mp4">Watch Video</button>
+                    </li>
+                    <li>
+                        🎯 Single Arm Dumbbell Extension - <button class="watch-video-btn" data-video-url="https://www.lyfta.app/video/GymvisualMP4/04231201.mp4">Watch Video</button>
+                    </li>
+                    <li>
+                        🎯 Rope Push Down - <button class="watch-video-btn" data-video-url="https://www.lyfta.app/video/GymvisualMP4/02001201.mp4">Watch Video</button>
+                    </li>
+                    <li>
+                        🎯 Bar Push Down Cable - <button class="watch-video-btn" data-video-url="https://www.lyfta.app/video/GymvisualMP4/16051201.mp4">Watch Video</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Tuesday -->
+        <div class="dropdown">
+            <button class="dropdown-btn">Tuesday: Shoulder &amp; Legs <i class="material-icons">arrow_drop_down</i></button>
+            <div class="dropdown-content">
+                <h3>Shoulder:</h3>
+                <ul>
+                    <li>
+                        🎯 Military Press - <button class="watch-video-btn" data-video-url="PUT_URL_HERE">Watch Video</button>
+                    </li>
+                    <li>
+                        🎯 Lateral Raise - <button class="watch-video-btn" data-video-url="https://www.lyfta.app/video/GymvisualMP4/03341201.mp4">Watch Video</button>
+                    </li>
+                    <li>
+                        🎯 Front Raise on Cable - <button class="watch-video-btn" data-video-url="https://www.lyfta.app/video/GymvisualMP4/01621201.mp4">Watch Video</button>
+                    </li>
+                    <li>
+                        🎯 Rear Delt on Cable - <button class="watch-video-btn" data-video-url="PUT_URL_HERE">Watch Video</button>
+                    </li>
+                </ul>
+                <h3>Legs:</h3>
+                <ul>
+                    <li>
+                        🎯 Barbell Squat - <button class="watch-video-btn" data-video-url="https://www.lyfta.app/video/GymvisualMP4/35931201.mp4">Watch Video</button>
+                    </li>
+                    <li>
+                        🎯 Leg Press Wide Stance - <button class="watch-video-btn" data-video-url="https://www.lyfta.app/video/GymvisualMP4/07391201.mp4">Watch Video</button>
+                    </li>
+                    <li>
+                        🎯 Leg Extension - <button class="watch-video-btn" data-video-url="https://www.lyfta.app/video/GymvisualMP4/22561201.mp4">Watch Video</button>
+                    </li>
+                    <li>
+                        🎯 Leg Curl - <button class="watch-video-btn" data-video-url="https://www.lyfta.app/video/GymvisualMP4/05861201.mp4">Watch Video</button>
+                    </li>
+                    <li>
+                        🎯 Standing Calves - <button class="watch-video-btn" data-video-url="PUT_URL_HERE">Watch Video</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Wednesday -->
+        <div class="dropdown">
+            <button class="dropdown-btn">Wednesday: Back &amp; Biceps <i class="material-icons">arrow_drop_down</i></button>
+            <div class="dropdown-content">
+                <h3>Back:</h3>
+                <ul>
+                    <li>
+                        🎯 Lat Pull Down - <button class="watch-video-btn" data-video-url="https://www.lyfta.app/video/GymvisualMP4/01501201.mp4">Watch Video</button>
+                    </li>
+                    <li>
+                        🎯 Supine Lat Pull Down - <button class="watch-video-btn" data-video-url="PUT_URL_HERE">Watch Video</button>
+                    </li>
+                    <li>
+                        🎯 T-Bar - <button class="watch-video-btn" data-video-url="https://www.lyfta.app/video/GymvisualMP4/06061201.mp4">Watch Video</button>
+                    </li>
+                    <li>
+                        🎯 Hyperextension - <button class="watch-video-btn" data-video-url="https://www.lyfta.app/video/GymvisualMP4/04891201.mp4">Watch Video</button>
+                    </li>
+                </ul>
+                <h3>Biceps:</h3>
+                <ul>
+                    <li>
+                        🎯 Barbell Curl on EZ Bar - <button class="watch-video-btn" data-video-url="https://www.lyfta.app/video/GymvisualMP4/22381201.mp4">Watch Video</button>
+                    </li>
+                    <li>
+                        🎯 Seated Dumbbell Curl - <button class="watch-video-btn" data-video-url="https://www.lyfta.app/video/GymvisualMP4/03911201.mp4">Watch Video</button>
+                    </li>
+                    <li>
+                        🎯 Preacher Curl on Machine - <button class="watch-video-btn" data-video-url="PUT_URL_HERE">Watch Video</button>
+                    </li>
+                    <li>
+                        🎯 Hammer Curl - <button class="watch-video-btn" data-video-url="https://www.lyfta.app/video/GymvisualMP4/03121201.mp4">Watch Video</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Thursday -->
+        <div class="dropdown">
+            <button class="dropdown-btn">Thursday: Chest &amp; Triceps <i class="material-icons">arrow_drop_down</i></button>
+            <div class="dropdown-content">
+                <h3>Chest:</h3>
+                <ul>
+                    <li>
+                        🎯 Decline Barbell - <button class="watch-video-btn" data-video-url="https://www.lyfta.app/video/GymvisualMP4/00331201.mp4">Watch Video</button>
+                    </li>
+                    <li>
+                        🎯 Inclined Barbell - <button class="watch-video-btn" data-video-url="https://www.lyfta.app/video/GymvisualMP4/00471201.mp4">Watch Video</button>
+                    </li>
+                    <li>
+                        🎯 Dumbbell Fly - <button class="watch-video-btn" data-video-url="https://www.lyfta.app/video/GymvisualMP4/03081201.mp4">Watch Video</button>
+                    </li>
+                </ul>
+                <h3>Triceps:</h3>
+                <ul>
+                    <li>
+                        🎯 Skull Crusher on EZ Bar - <button class="watch-video-btn" data-video-url="https://www.lyfta.app/video/GymvisualMP4/36461201.mp4">Watch Video</button>
+                    </li>
+                    <li>
+                        🎯 Single Arm Dumbbell Extension - <button class="watch-video-btn" data-video-url="https://www.lyfta.app/video/GymvisualMP4/04231201.mp4">Watch Video</button>
+                    </li>
+                    <li>
+                        🎯 Rope Push Down - <button class="watch-video-btn" data-video-url="https://www.lyfta.app/video/GymvisualMP4/02001201.mp4">Watch Video</button>
+                    </li>
+                    <li>
+                        🎯 Bar Push Down Cable - <button class="watch-video-btn" data-video-url="https://www.lyfta.app/video/GymvisualMP4/16051201.mp4">Watch Video</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Friday -->
+        <div class="dropdown">
+            <button class="dropdown-btn">Friday: Shoulder &amp; Legs <i class="material-icons">arrow_drop_down</i></button>
+            <div class="dropdown-content">
+                <h3>Shoulder:</h3>
+                <ul>
+                    <li>
+                        🎯 Military Press - <button class="watch-video-btn" data-video-url="PUT_URL_HERE">Watch Video</button>
+                    </li>
+                    <li>
+                        🎯 Lateral Raise - <button class="watch-video-btn" data-video-url="https://www.lyfta.app/video/GymvisualMP4/03341201.mp4">Watch Video</button>
+                    </li>
+                    <li>
+                        🎯 Front Raise on Cable - <button class="watch-video-btn" data-video-url="https://www.lyfta.app/video/GymvisualMP4/01621201.mp4">Watch Video</button>
+                    </li>
+                    <li>
+                        🎯 Rear Delt on Cable - <button class="watch-video-btn" data-video-url="PUT_URL_HERE">Watch Video</button>
+                    </li>
+                </ul>
+                <h3>Legs:</h3>
+                <ul>
+                    <li>
+                        🎯 Barbell Squat - <button class="watch-video-btn" data-video-url="https://www.lyfta.app/video/GymvisualMP4/35931201.mp4">Watch Video</button>
+                    </li>
+                    <li>
+                        🎯 Leg Press Wide Stance - <button class="watch-video-btn" data-video-url="https://www.lyfta.app/video/GymvisualMP4/07391201.mp4">Watch Video</button>
+                    </li>
+                    <li>
+                        🎯 Leg Extension - <button class="watch-video-btn" data-video-url="https://www.lyfta.app/video/GymvisualMP4/22561201.mp4">Watch Video</button>
+                    </li>
+                    <li>
+                        🎯 Leg Curl - <button class="watch-video-btn" data-video-url="https://www.lyfta.app/video/GymvisualMP4/05861201.mp4">Watch Video</button>
+                    </li>
+                    <li>
+                        🎯 Standing Calves - <button class="watch-video-btn" data-video-url="PUT_URL_HERE">Watch Video</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Saturday -->
+        <div class="dropdown">
+            <button class="dropdown-btn">Saturday: Back &amp; Biceps <i class="material-icons">arrow_drop_down</i></button>
+            <div class="dropdown-content">
+                <h3>Back:</h3>
+                <ul>
+                    <li>
+                        🎯 Lat Pull Down - <button class="watch-video-btn" data-video-url="https://www.lyfta.app/video/GymvisualMP4/01501201.mp4">Watch Video</button>
+                    </li>
+                    <li>
+                        🎯 Supine Lat Pull Down - <button class="watch-video-btn" data-video-url="PUT_URL_HERE">Watch Video</button>
+                    </li>
+                    <li>
+                        🎯 T-Bar - <button class="watch-video-btn" data-video-url="https://www.lyfta.app/video/GymvisualMP4/06061201.mp4">Watch Video</button>
+                    </li>
+                    <li>
+                        🎯 Hyperextension - <button class="watch-video-btn" data-video-url="https://www.lyfta.app/video/GymvisualMP4/04891201.mp4">Watch Video</button>
+                    </li>
+                </ul>
+                <h3>Biceps:</h3>
+                <ul>
+                    <li>
+                        🎯 Barbell Curl on EZ Bar - <button class="watch-video-btn" data-video-url="https://www.lyfta.app/video/GymvisualMP4/22381201.mp4">Watch Video</button>
+                    </li>
+                    <li>
+                        🎯 Seated Dumbbell Curl - <button class="watch-video-btn" data-video-url="https://www.lyfta.app/video/GymvisualMP4/03911201.mp4">Watch Video</button>
+                    </li>
+                    <li>
+                        🎯 Preacher Curl on Machine - <button class="watch-video-btn" data-video-url="PUT_URL_HERE">Watch Video</button>
+                    </li>
+                    <li>
+                        🎯 Hammer Curl - <button class="watch-video-btn" data-video-url="https://www.lyfta.app/video/GymvisualMP4/03121201.mp4">Watch Video</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Sunday -->
+        <div class="dropdown">
+            <button class="dropdown-btn">Sunday: Time to take rest <i class="material-icons">arrow_drop_down</i></button>
+            <div class="dropdown-content">
+                <h3>Rest:</h3>
+                <p>Take a break and relax!</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var dropdownBtns = document.querySelectorAll(".dropdown-btn");
+
+            dropdownBtns.forEach(function(btn) {
+                btn.addEventListener("click", function() {
+                    var content = this.nextElementSibling;
+                    var isActive = content.classList.contains("active");
+
+                    // Close all dropdowns first
+                    dropdownBtns.forEach(function(item) {
+                        item.nextElementSibling.classList.remove("active");
+                    });
+
+                    // If the clicked dropdown is not already active, activate it
+                    if (!isActive) {
+                        content.classList.add("active");
+                    }
+                });
+            });
+
+            var watchButtons = document.querySelectorAll(".watch-video-btn");
+
+            watchButtons.forEach(function(button) {
+                button.addEventListener("click", function() {
+                    var videoUrl = this.getAttribute("data-video-url");
+                    window.open(videoUrl, "_blank");
+                });
+            });
+        });
+    </script>
+</body>
+</html>
